@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023333353201",
+    "project_id": "stutrade-da0ae",
+    "storage_bucket": "stutrade-da0ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023333353201:android:0fc3a11568a41f0e648b50",
+        "android_client_info": {
+          "package_name": "edu.northeastern.stutrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023333353201-1ojisndrb8fsmcjo05hus0ue1p7vthjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF4vWtzAs1BlIeJRn1QEb-3vo01MnDBH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023333353201-1ojisndrb8fsmcjo05hus0ue1p7vthjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

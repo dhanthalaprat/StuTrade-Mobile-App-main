@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StuTrade" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Sleek and stylish-->
+<!--        <item name="colorPrimary">#212121</item>-->
+<!--        <item name="colorPrimaryDark">#E8729A</item>-->
+<!--        <item name="colorAccent">#FF5722</item>-->
+<!--        <item name="android:windowBackground">@color/white</item>-->
+<!--        <item name="android:textColorPrimary">@color/off_white</item>-->
+
+        <!-- Fresh and vibrant-->
+<!--         <item name="colorPrimary">#FF4081</item>-->
+<!--        <item name="colorPrimaryDark">#4CAF50</item>-->
+<!--        <item name="colorAccent">#FFC107</item>-->
+<!--        <item name="android:windowBackground">@color/white</item>-->
+<!--        <item name="android:textColorPrimary">@color/black</item>-->
+
+        <!-- Warm-->
+<!--        <item name="colorPrimary">#795548</item>-->
+<!--        <item name="colorPrimaryDark">#FF9800</item>-->
+<!--        <item name="colorAccent">#FFEB3B</item>-->
+<!--        <item name="android:windowBackground">@color/white</item>-->
+<!--        <item name="android:textColorPrimary">@color/black</item>-->
+        <item name="colorPrimary">#012169</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.StuTrade" parent="Base.Theme.StuTrade" />
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp" >
+
+    <!-- <Spinner
+        android:id="@+id/sp_user_list"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal" /> -->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sortDropdownLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:endIconMode="dropdown_menu"
+        app:boxBackgroundMode="outline">
+
+    <AutoCompleteTextView
+        android:id="@+id/sortDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_user"
+        android:inputType="none"
+        android:minHeight="48dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_chat_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:layout_marginStart="10dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <!-- RecyclerView to display the chat messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbarSize="8dp"/>
+
+    <!-- Input layout with EditText and Send button -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" >
+
+        <RelativeLayout
+            android:id="@+id/layoutInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/btn_send"
+                android:hint="@string/type_your_message"
+                android:padding="16dp"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:backgroundTint="@android:color/transparent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/send"
+                android:visibility="gone"
+                android:layout_marginEnd="4dp"/>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

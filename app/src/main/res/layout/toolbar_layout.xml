@@ -1,0 +1,42 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+    <!-- Left side: Logo image -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/stutrade_round"/>
+
+    <!-- Middle: App Name "StuTrade" -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="StuTrade"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Right side: Username -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center_vertical"
+        android:text="Username"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp" />
+</androidx.appcompat.widget.Toolbar>

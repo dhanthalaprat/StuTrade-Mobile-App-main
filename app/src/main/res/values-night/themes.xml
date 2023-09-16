@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StuTrade" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <!-- Sleek stylish -->
+        <item name="colorPrimary">#7F7FD5</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/off_white</item>
+
+        <!-- Fresh and vibrant -->
+<!--        <item name="colorPrimary">#FF4081</item>-->
+<!--        <item name="colorPrimaryDark">#4CAF50</item>-->
+<!--        <item name="colorAccent">#FFC107</item>-->
+<!--        <item name="android:windowBackground">@color/black</item>-->
+<!--        <item name="android:textColorPrimary">@color/white</item>-->
+
+        <!-- Warm -->
+<!--        <item name="colorPrimary">#795548</item>-->
+<!--        <item name="colorPrimaryDark">#FF9800</item>-->
+<!--        <item name="colorAccent">#FFEB3B</item>-->
+<!--        <item name="android:windowBackground">@color/black</item>-->
+<!--        <item name="android:textColorPrimary">@color/white</item>-->
+    </style>
+</resources>
